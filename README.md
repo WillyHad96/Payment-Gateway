@@ -5,12 +5,13 @@ This Payment Gateway is a Flask-based project that integrates a custom 3D Secure
 
 **GUI**
 
-<img src="https://github.com/WillyHad96/Payment-Gateway/blob/main/PaymentGatewayImage.png" alt="Screenrecording" width="500" height="500">
+<img src="https://github.com/WillyHad96/Payment-Gateway/blob/main/PaymentGatewayImage.png" alt="Screenrecording" width="700" height="400">
 
 
 **Testing**
 
 The project can be tested in the following URL: 
+
 [www.pythonanywhere.com ](https://willyhad96.pythonanywhere.com/)
 
 
