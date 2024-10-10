@@ -33,7 +33,7 @@ The code snippet provided in Checkout.py is just the backbone of the full projec
 ```
 Flask
 Datetime
-Selenium
+Requests
 ```
 
 
@@ -46,4 +46,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 * Python Software Foundation
 * Flask Documentation
-* Selenium Documentation
+* Requests Documentation
