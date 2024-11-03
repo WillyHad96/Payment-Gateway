@@ -1,11 +1,11 @@
 # Payment Gateway
 
-This Payment Gateway is a Flask-based project that integrates a custom 3D Secure (3DS) verification system and card validation functionalities. The application allows users to process transactions securely, validate card information (number, expiry date, CVC), and perform 3DS verification during checkout.
+This Payment Gateway is a Flask-based project featuring a custom 3D Secure (3DS) verification system and card validation functionalities. The application supports various payment methods, including Klarna, PayPal, and Google Pay, allowing users to securely process transactions and validate card information (number, expiry date, CVC) while performing 3DS verification during checkout.
 
 
 **GUI**
 
-<img src="https://github.com/WillyHad96/Payment-Gateway/blob/main/PaymentGatewayImage.png" alt="Screenrecording" width="800" height="500">
+<img src="https://github.com/WillyHad96/Payment-Gateway/blob/main/PaymentGatewayImage2.png" alt="Screenrecording" width="800" height="500">
 
 
 **Testing**
@@ -21,6 +21,10 @@ The project can be tested in the following URL:
 * **Card Validation**: Validate card number, expiry date, and CVC against a stored database.
 * **Email Verification**: Secure email-based authentication to add an extra layer of security.
 * **Automatic Testing**: Ability to test up to 1000 credit cards automatically for processing efficiency.
+* **Payment Method Integrations**:
+  - **Google Pay**: Convenient mobile and online payment integration.
+  - **PayPal**: Widely recognized payment option for secure transactions.
+  - **Klarna**: Buy-now-pay-later functionality for enhanced flexibility at checkout.
 
 
 **Code Overview**
@@ -34,6 +38,8 @@ The code snippet provided in Checkout.py is just the backbone of the full projec
 Flask
 Datetime
 Requests
+Paypalrestsdk
+Flask_wtf
 ```
 
 
@@ -47,3 +53,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 * Python Software Foundation
 * Flask Documentation
 * Requests Documentation
+* Google Pay Documentation
+* Paypal Documentation
+* Klarna Documentation
