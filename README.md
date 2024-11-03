@@ -1,6 +1,6 @@
 # Payment Gateway
 
-This Payment Gateway is a Flask-based project featuring a custom 3D Secure (3DS) verification system and card validation functionalities. The application supports various payment methods, including Klarna, PayPal, and Google Pay, allowing users to securely process transactions and validate card information (number, expiry date, CVC) while performing 3DS verification during checkout.
+This Payment Gateway is a Flask-based project featuring a custom 3D Secure (3DS) verification system, card validation, and reCAPTCHA functionalities. The application supports various payment methods, including Klarna, PayPal, and Google Pay, allowing users to securely process transactions and validate card information (number, expiry date, CVC) while performing 3DS verification during checkout.
 
 
 **GUI**
